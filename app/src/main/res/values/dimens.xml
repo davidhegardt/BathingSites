@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="center_horizon">100dp</dimen>
+    <dimen name="center_horizon_land">200dp</dimen>
+    <dimen name="center_text_vertical">180dp</dimen>
+    <dimen name="center_text_horizon">135dp</dimen>
+    <dimen name="center_text_horizon_land">235dp</dimen>
+</resources>

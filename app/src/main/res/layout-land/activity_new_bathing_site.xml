@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="se.miun.dahe1501.bathingsites.NewBathingSiteActivity">
+
+    <fragment
+        android:id="@+id/sites_fragment"
+        class="se.miun.dahe1501.bathingsites.BathingSitesFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="40dp"
+        tools:layout="@layout/fragment_main" />
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <fragment
+        android:id="@+id/new_sites_fragment"
+        class="se.miun.dahe1501.bathingsites.NewBathingSiteFragment"
+        android:layout_width="300dp"
+        android:layout_height="315dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="50dp"
+        tools:layout="@layout/fragment_new_bathing_site" />
+
+</FrameLayout>

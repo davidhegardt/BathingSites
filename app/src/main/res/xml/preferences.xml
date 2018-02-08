@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory>
+        <EditTextPreference
+            android:key="koordinat_url"
+            android:summary="http://dt031g.programvaruteknik.nu/badplatser/koordinater-utf8"
+            android:title="URL for coordinates"
+            android:defaultValue="http://dt031g.programvaruteknik.nu/badplatser/koordinater-utf8"
+            ></EditTextPreference>
+
+        <EditTextPreference
+            android:key="weatherurl"
+            android:summary="http://dt031g.programvaruteknik.nu/badplatser/weather.php?location="
+            android:title="URL for weather"
+            android:defaultValue="http://dt031g.programvaruteknik.nu/badplatser/weather.php?location="
+            ></EditTextPreference>
+
+        <EditTextPreference
+            android:key="radius"
+            android:summary="50000"
+            android:title="Radius to display sites"
+            android:defaultValue="50000"
+            ></EditTextPreference>
+    </PreferenceCategory>
+</PreferenceScreen>

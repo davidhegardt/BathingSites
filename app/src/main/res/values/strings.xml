@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Bathing Sites</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_new_bathing_site">New Bathing Site</string>
+    <string name="name">Name: </string>
+    <string name="desc">Description: </string>
+    <string name="address">Address: </string>
+    <string name="longit">Longitude: </string>
+    <string name="latit">Latitude: </string>
+    <string name="location">Location :</string>
+    <string name="grade">Grade :</string>
+    <string name="rating">Rating :</string>
+    <string name="server_error">Cannot connect to server - check URL settings</string>
+
+    <string name="permission_message">To show bathing sites properly, the application needs to access your location</string>
+    <string name="permission_title">Location required</string>
+    <string name="water_temp">Water temperature: </string>
+    <string name="date_temp">Date for temperature: </string>
+    <string name="name_error">Name is required</string>
+    <string name="address_error">Address and/or lat/long is required</string>
+    <string name="longit_error">Longitude needs a value</string>
+    <string name="latit_error">Latitude needs a value</string>
+    <string name="title_activity_site_registry">Site Registry</string>
+    <string name="invalid_format">Invalid format - must be numeric</string>
+    <string name="get_weather">Getting weather</string>
+    <string name="download_text">Downloading..</string>
+    <string name="downlading_site_text">Downloading sites..</string>
+    <string name="wind_speed">km/h vindhastighet</string>
+    <string name="weather_dialog_title">Current weather</string>
+    <string name="location_error">Location does not exist!</string>
+    <string name="settings_message">Enter the URL</string>
+    <string name="settings_title">Weather URL</string>
+    <string name="saved_database"> succesfullly saved to database</string>
+    <string name="already_in_db">Location already in database - not saved</string>
+    <string name="save_error">Data cannot be saved - fields not filled in</string>
+    <string name="url_default">http://dt031g.programvaruteknik.nu/badplatser/weather.php?location=</string>
+    <string name="Default_download">http://dt031g.programvaruteknik.nu/badplatser/koordinater-utf8/</string>
+    <string name="default_site">Default_site</string>
+    <string name="lang_se">language=SW</string>
+    <string name="lang_en">language=EN</string>
+    <string name="title_activity_download_sites">Download Sites</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="donwloadingfiles">http://dt031g.programvaruteknik.nu/badplatser/koordinater-utf8/</string>
+    <string name="searchweather">http://dt031g.programvaruteknik.nu/badplatser/weather.php?location=</string>
+    <string name="date_format">dd/MM/yyyy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="radius_text">50000</string>
+
+    <!-- Strings related to Settings -->
+    <string name="pref_coordinates">koordinat_url</string>
+    <string name="pref_weather">weatherurl</string>
+    <string name="pref_radius">radius</string>
+</resources>

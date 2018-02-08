@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="se.miun.dahe1501.bathingsites.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/sites_database"
+        android:title="Bathingsites Database"
+        app:showAsAction="never" />
+
+    <item
+        android:title="Download Sites"
+        android:id="@+id/download_sites"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/download_icon"
+        />
+    <item
+        android:title="Maps_activity"
+        android:id="@+id/maps_activity"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/google_maps"
+        />
+</menu>

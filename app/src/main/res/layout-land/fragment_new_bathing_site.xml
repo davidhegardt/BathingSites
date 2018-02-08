@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:fadeScrollbars="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="se.miun.dahe1501.bathingsites.NewBathingSiteFragment"
+    tools:showIn="@layout/activity_new_bathing_site">
+
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="15dp"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Name"
+        android:layout_alignStart="@+id/Name"
+        android:layout_below="@+id/Name"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/Desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtName"
+        android:layout_alignStart="@+id/txtName"
+        android:layout_below="@+id/txtName"
+        android:layout_marginTop="14dp"
+        android:text="Description" />
+
+    <EditText
+        android:id="@+id/txtDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Desc"
+        android:layout_alignStart="@+id/Desc"
+        android:layout_below="@+id/Desc"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/Adress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtDesc"
+        android:layout_alignStart="@+id/txtDesc"
+        android:layout_below="@+id/txtDesc"
+        android:layout_marginTop="13dp"
+        android:text="Address" />
+
+    <EditText
+        android:id="@+id/txtAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Adress"
+        android:layout_alignStart="@+id/Adress"
+        android:layout_below="@+id/Adress"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/Long"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtAddress"
+        android:layout_alignStart="@+id/txtAddress"
+        android:layout_below="@+id/txtAddress"
+        android:layout_marginTop="11dp"
+        android:text="Longitude" />
+
+    <TextView
+        android:id="@+id/Lat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latitude"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_above="@+id/txtLongitude"
+        android:layout_toRightOf="@+id/txtLongitude"
+        android:layout_toEndOf="@+id/txtLongitude" />
+
+    <EditText
+        android:id="@+id/txtLongitude"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/Long"
+        android:layout_alignLeft="@+id/Long"
+        android:layout_alignStart="@+id/Long" />
+
+    <EditText
+        android:id="@+id/txtLatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Lat"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/Lat"
+        android:layout_below="@+id/Lat"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtLongitude"
+        android:layout_alignStart="@+id/txtLongitude"
+        android:layout_below="@+id/txtLongitude"
+        android:layout_marginTop="15dp"
+        android:text="Grade" />
+
+    <TextView
+        android:id="@+id/Water_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ratingBar"
+        android:layout_alignStart="@+id/ratingBar"
+        android:layout_below="@+id/ratingBar"
+        android:layout_marginTop="13dp"
+        android:text="Water temp:" />
+
+    <TextView
+        android:id="@+id/date_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date for temp:"
+        android:layout_alignBaseline="@+id/Water_temp"
+        android:layout_alignBottom="@+id/Water_temp"
+        android:layout_toRightOf="@+id/txtLongitude"
+        android:layout_toEndOf="@+id/txtLongitude"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp" />
+
+    <EditText
+        android:id="@+id/txtWaterTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/Water_temp"
+        android:layout_alignLeft="@+id/Water_temp"
+        android:layout_alignRight="@+id/Water_temp"
+        android:layout_alignStart="@+id/Water_temp"
+        android:layout_below="@+id/Water_temp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:onClick="showDatePickerDialog"
+        />
+
+    <EditText
+        android:id="@+id/txtTempDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/date_temp"
+        android:layout_alignStart="@+id/date_temp"
+        android:layout_below="@+id/date_temp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/grade"
+        android:layout_alignLeft="@+id/grade"
+        android:layout_alignStart="@+id/grade" />
+
+</RelativeLayout>
+    </ScrollView>
